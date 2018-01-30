@@ -1,11 +1,11 @@
 {
-    "name": "ourren/yii2-ssh2",
+    "name": "behnampro/yii2-ssh2",
     "description": "SSH2 library for yii2",
     "license": "MIT",
     "authors": [
         {
-            "name": "ourren",
-            "email": "i@ourren.com"
+            "name": "Behnam mirzaee",
+            "email": "behnamprogramming@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ourren\\yii2ssh\\": "src/"
+            "behnampro\\yii2ssh\\": "src/"
         },
         "files": [
             "../../phpseclib/phpseclib/phpseclib/Net/SSH2.php"

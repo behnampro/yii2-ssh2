@@ -74,7 +74,7 @@ class Yii2ssh extends Widget
 	 *
 	 * @return string|null
 	 */
-	public function run($commands, $callback = null)
+	public function run_ssh($commands, $callback = null)
 	{
 		if (!$this->ssh->isConnected())
 			throw new NotConnectedException();
