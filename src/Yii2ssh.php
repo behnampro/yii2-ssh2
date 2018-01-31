@@ -1,5 +1,5 @@
 <?php
-namespace ourren\yii2ssh;
+namespace behnampro\yii2ssh;
 
 use Yii;
 use phpseclib\Net\SSH2;
