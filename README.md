@@ -36,10 +36,11 @@ to the require section of your `composer.json` file.
 
 ```
 use behnampro\yii2ssh\Yii2ssh;
+
 $yii_ssh = new Yii2ssh();
 $host = "127.0.0.1";
-$auth['username'] = 'root';
-$auth['password'] = 'root';
+$auth['username'] = 'admin';
+$auth['password'] = 'password';
 if($yii_ssh->connect($host, $auth))
 {
     $yii_ssh->run_ssh([
